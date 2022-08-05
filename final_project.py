@@ -29,7 +29,7 @@ plt.rcParams['figure.figsize'] = (15, 5)
 
 # uploaded_file = st.file_uploader("Choose a file")
 # if uploaded_file is not None:
-collisions = pd.read_csv("/Users/albertkabugo/pythonProject1/Collisions.csv", encoding='UTF-8')
+collisions = pd.read_csv("Collisions.csv", encoding='UTF-8')
 
 # Clean data / drop unnecessary columns
     # Dropping unucessary columns
